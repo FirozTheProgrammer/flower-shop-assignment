@@ -140,7 +140,6 @@ main section {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 100px;
   padding: 86px 175px;
   border-radius: 8px;
   background-color: #2727270d;
@@ -152,6 +151,14 @@ main section {
 
 .service-img {
   margin-bottom: 30px;
+}
+
+.service-text {
+  color: #272727cc;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 35px;
 }
 /* service section style end */
 
