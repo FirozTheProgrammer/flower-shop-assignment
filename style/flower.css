@@ -40,7 +40,7 @@ body {
   line-height: 30px;
   margin-bottom: 48px;
 }
-/* common style start*/
+/* common style end*/
 
 /* header section style */
 .banner {
@@ -184,3 +184,38 @@ main section {
   border: none;
 }
 /* Latest deal section style end */
+
+/* footer section start */
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #111010;
+  padding: 128px 0;
+}
+
+.footer-title {
+  color: #ffffff;
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.flower-red {
+  color: #e55473;
+}
+
+.footer-description {
+  width: 625px;
+  color: #ffffffe6;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.footer-copy-right {
+  background-color: #111010;
+}
+
+/* footer section end */
