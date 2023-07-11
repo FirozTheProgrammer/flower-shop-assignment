@@ -1,4 +1,4 @@
-/* common style */
+/* common style start*/
 * {
   padding: 0;
   margin: 0;
@@ -10,6 +10,7 @@ body {
   font-family: Lato;
 }
 
+/* Button style */
 .primary-btn {
   color: #fff;
   border-radius: 8px;
@@ -20,17 +21,38 @@ body {
   font-weight: 700;
 }
 
+/* Section title and description style */
+.section-title {
+  color: #2c2525;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+
+.section-description {
+  width: 594px;
+  margin: 0 auto;
+  color: #26262699;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 48px;
+}
+/* common style start*/
+
 /* header section style */
 .banner {
   display: flex;
   justify-content: space-between;
   padding: 50px 240px 0 240px;
-
+  margin-bottom: 150px;
   background-color: #e554731a;
 }
 
 .banner-text-item {
-  width: 700px;
+  max-width: 700px;
   padding-top: 180px;
 }
 
@@ -49,6 +71,12 @@ body {
   margin-bottom: 30px;
 }
 
+/* Main section started */
+main section {
+  margin-bottom: 130px;
+}
+/* Main section end */
+
 /* featured flowers section style */
 
 .featured-section {
@@ -58,6 +86,7 @@ body {
 .featured-container {
   display: flex;
   justify-content: space-between;
+  gap: 24px;
   align-items: center;
 }
 
@@ -90,3 +119,68 @@ body {
   background-repeat: no-repeat;
   background-position: center bottom;
 }
+
+.feature-img-text {
+  color: #272727;
+  margin-top: 32px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 35px;
+  text-decoration-line: underline;
+}
+
+/* hot deal section style started */
+.hot-deal-item-text {
+  text-align: center;
+}
+
+.hot-deal-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 400px;
+  border-radius: 8px;
+  background: #e554730d;
+}
+
+.hot-deal-item-img {
+  padding: 100px 0;
+}
+/* hot deal section style end */
+
+/* Instagram section style started */
+.instagram-image-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  padding: 0 240px;
+}
+/* Instagram section style end */
+
+/* Latest deal section style started */
+.latest-deal-section {
+  background-image: url(../images/rectangle\ 9.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 122px 240px;
+}
+
+.latest-deal-subscribe {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-email {
+  width: 700px;
+  height: 64px;
+  padding-left: 22px;
+  margin-right: 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  background: #fff;
+  border: none;
+}
+/* Latest deal section style end */
