@@ -77,7 +77,7 @@ main section {
 }
 /* Main section end */
 
-/* featured flowers section style */
+/* featured flowers section style started */
 
 .featured-section {
   padding: 0 240px;
@@ -129,6 +129,31 @@ main section {
   line-height: 35px;
   text-decoration-line: underline;
 }
+/* featured flowers section style started */
+
+/* service section style started */
+.service-section {
+  margin: 0 240px;
+}
+
+.service-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 100px;
+  padding: 86px 175px;
+  border-radius: 8px;
+  background-color: #2727270d;
+}
+
+.service-item {
+  text-align: center;
+}
+
+.service-img {
+  margin-bottom: 30px;
+}
+/* service section style end */
 
 /* hot deal section style started */
 .hot-deal-item-text {
