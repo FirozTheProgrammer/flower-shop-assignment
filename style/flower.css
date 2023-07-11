@@ -159,6 +159,36 @@ main section {
 }
 /* Instagram section style end */
 
+/* about section started */
+.about-section {
+  display: flex;
+  justify-content: space-between;
+
+  border-radius: 8px;
+  background-color: #e554730d;
+  padding: 100px 240px;
+}
+
+.about-flower-img img {
+  width: 600px;
+}
+
+.sub-flower-1 {
+  width: 400px;
+  margin-top: 50px;
+  border: 5px solid white;
+  border-radius: 5px;
+}
+
+.sub-flower-2 {
+  width: 350px;
+  margin-top: 150px;
+  border: 5px solid white;
+  border-radius: 5px;
+}
+
+/* about section end */
+
 /* Latest deal section style started */
 .latest-deal-section {
   background-image: url(../images/rectangle\ 9.png);
